@@ -21,7 +21,6 @@ class ChildClass(ParentClass1, ParentClass2):
     def child_method(self):
         print('Child method')
 
-# Приклад використання
 child = ChildClass()
 print(child.parent1_attr)
 print(child.parent2_attr)
